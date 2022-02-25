@@ -67,7 +67,7 @@
     - Now if you go to http://localhost:3000/, you should see something like below screenshot i.e User Form :
     - User http://localhost:3000/users, you should see Listing of Users:
 
-    ()
+    (https://github.com/sunilverma209/finertest/blob/main/screen_2.png)
 
 
     The API is not working because well, we are not running our backend yet!
@@ -76,6 +76,6 @@
     - In another terminal session run the command `node server.js` at the root directory of the project as we did with the frontend.
     It should look something like this:
 
-    ()
+    (https://github.com/sunilverma209/finertest/blob/main/screen_1.png)
 
     You can see that we have the express server running on port `8080`.
