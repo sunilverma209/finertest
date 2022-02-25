@@ -5,12 +5,12 @@ const app = express();
 const db = require("./app/models")
 
 // Production
-//db.sequelize.sync();
+db.sequelize.sync();
 
-Development
-db.sequelize.sync({ force : true}).then(() => {
-    console.log( "Drop and re-sync db. ");
-})
+// Development
+// db.sequelize.sync({ force : true}).then(() => {
+//     console.log( "Drop and re-sync db. ");
+// })
 
 
 var corsOptions = {

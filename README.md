@@ -64,8 +64,8 @@
     $ npm start
     ```
 
-    - Now if you go to http://localhost:3000, you should see something like below screenshot i.e User Form :
-    - User http://localhost:3000/users, you should Listing of Users:
+    - Now if you go to http://localhost:3000/, you should see something like below screenshot i.e User Form :
+    - User http://localhost:3000/users, you should see Listing of Users:
 
     ()
 
