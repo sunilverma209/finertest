@@ -1,0 +1,22 @@
+{
+  "name": "user_info",
+  "version": "1.0.0",
+  "description": "CURD application to store the user information.",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "test app"
+  },
+  "author": "Suni Verma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.2",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
